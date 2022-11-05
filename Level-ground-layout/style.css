@@ -1,0 +1,228 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     margin: 0;
+     padding: 0;
+} 
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header,main,nav{
+     background: rgb(102,118,138);
+     color: rgb(241,241,241);
+}
+/* Header */
+
+header > section{
+     display: block;
+     height: 70px;
+     width: 100%;
+     position: relative;
+     overflow: auto;
+}
+nav{
+     display: block;
+     position: absolute;
+     width: 85%;
+     left: 120px;
+}
+nav > *{
+     display: inline-block;
+     float: left;
+     text-transform: uppercase;
+}
+ul > li > a{
+     text-decoration: none;
+     color: rgb(241,241,241);
+} 
+nav > ul {
+     width: 300px;
+}  
+nav > ul li{
+     list-style: none;
+     float: left;
+     width: 30%;
+     margin-left: 3%;
+}
+nav img{
+     height: 40px;
+     width: 5%;
+     position: relative;
+     margin: 5px 0 5px 12%;
+     
+}
+section nav button{
+     margin: 10px 0 0 40%;
+     height: 30px;
+     border-radius: 7px;
+     border: 2px solid rgb(255,255,255);
+     color: rgb(102,118,138);
+     background: rgb(255,255,255)
+}
+
+/* Main */
+main{
+     height: 450px;
+     width: 100%;
+     margin-top: -30px;
+}
+main section h1{
+     border-top: 30px solid rgb(102,118,138);
+     padding-top: 35px;
+     text-transform: uppercase;
+}
+main section > *{
+     text-align: center;
+     color: rgb(240,240,240)
+}
+main section p {
+     font-size: 1.2em;
+     margin: 5% 2% 0 2%;
+}
+main section a{
+     position: absolute;
+     left: 45%;
+     text-decoration: none;
+     font-size: 1.4em;
+     margin-top: 3%;
+}
+main section span{
+     color: rgb(70,74,90);
+     position: absolute;
+     bottom: 30%;
+     left: 49%;
+     font-size: 1em;
+}
+/* 2nd Section */
+main + section{
+     height: 350px;
+     width: 100%;
+}
+main + section > *{
+     text-align: center;
+     color: rgb(13,22,33);
+}
+main + section h2{
+     margin: 10% 0 0 5%;
+     text-transform: uppercase;
+}
+main + section p{
+     margin: 5% 15%;
+     font-size: 1.1em;
+}
+/* 3rd Section */
+main + section + section {
+     background: rgb(219,223,226);
+     height: 600px;
+}
+main + section + section > section{
+     float: left;
+     width: 50%;
+     text-align: center;
+     margin: 10% auto;
+}
+main + section + section > section button{
+     background: rgb(219,223,226);
+     width: 20%;
+     border: 1px solid rgb(167,168,169);
+     height: 50px;
+     margin-top: 4%;
+}
+main + section + section > section p{
+     margin: 0 2%;
+     color: rgb(13,22,33);
+}
+main + section + section > section h3{
+     text-transform: uppercase;
+     color: rgb(13,22,33);
+}
+/* 4th Section */
+main + section + section + section {
+     height: 500px;
+     width: 100%;
+}
+main + section + section + section > *{
+     text-align: center;
+     color: rgb(13,22,33);
+}
+main + section + section + section > h2{
+     text-transform: uppercase;
+     margin-top: 10%;
+     font-size: 1.5em;
+}
+main + section + section + section > p{
+     margin: 3% 25% 0 25%;
+
+}
+main + section + section + section > button{
+     margin: 3% 0 0 44%;
+     background: rgb(255,255,255);
+     border: 1px solid rgb(168,168,168);
+     text-transform: uppercase;
+     height: 50px;
+     width: 15%;
+}
+/* Footer */
+section + footer{
+     background: rgb(22,31,42);
+     color: rgb(255,255,255);
+}
+section + footer > section + section{
+     border-top: 2px solid rgb(255,255,255);
+     width: 90%;
+     margin-left: 5%;
+}
+section + footer > section + section img{
+     margin-left: 90%;
+     position: relative;
+     top: -45px;
+}
+footer section > section, footer section > section + section{
+     width: 40%;
+     float: left;
+     margin: 0 5%;
+}
+.fmain{
+     clear: both;
+}
+.fmain + section{
+     clear: both;
+}
+.fmain section + section > p{ 
+     margin: 2% 25% 0 35%;
+     text-align: left;
+}
+.fmain section + section > h6{
+     margin-left: 35%;
+     text-transform: uppercase;
+     margin-top: 10%;
+}
+.fmain section + section > h6 + h6{
+     margin-top: -10px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
