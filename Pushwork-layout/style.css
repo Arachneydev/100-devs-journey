@@ -21,20 +21,150 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
 
-}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header{
+     background-image: url("header.png");
+     height: 70px;
+     width: 100%;
+     background-color: rgb(24, 31, 46);
+}
+nav *{
+     width: 85%;
+     float: left;
+}
+nav img{
+     height: 35px;
+     width: 3.5%;
+     margin: 2.3% 0 0 6.5%;
+}
+nav ul li{
+     list-style: none;
+     width: 12%;
+     margin: 4% 2% 0 2%;
+}
+nav button{
+     height: 37px;
+     width: 8.5%;
+     margin: 1.8% 0 0 0;
+     background: rgb(59, 65, 79);
+     color: rgb(166, 178, 184);
+     border: 1px solid rgb(59, 65, 79);
+     border-radius: 4px;
+}
+nav ul li a{
+     text-decoration: none;
+     color: rgb(82, 87, 99);
+     font-size: .75em;
+     text-transform: uppercase;
+     font-weight: 700;
+}
+nav ul{
+     width: 45%;
+     margin-left: 30%;
+}
+.home{
+     color: rgb(182, 186, 196);
+}
+/* Main */
+main{
+     background-image: url("mainm.png");
+     background-image: ;
+     height: 563px;
+     width: 100%;
+     background-color: rgb(24, 31, 46);
+}
+main > section{
+     width: 50%;
+     float: left;
+}
+main section > img{
+     border: 1px solid rgb(254, 254, 255);
+     border-radius: 20px;
+     margin-top: 25%;
+}
+main section > h1{
+     color: rgb(223, 234, 244);
+     margin: 26% 20% 0 15%;
+     font-weight: 100;
+}
+main section > p{
+     color: rgb(123, 126, 134);
+     margin: 2% 25% 0 15%;
+}
+main section > button{
+     margin: 9% 3% 0 15%;
+     background: rgb(225, 227, 235);
+     color: rgb(29,36,51);
+     border-color: rgb(225, 227, 235);
+     border-radius: 4px;
+     height: 40px;
+     width: 30%;
+     font-size: .70em;
+     text-transform: uppercase;
+     font-weight: 800;
+}
+main section > a{
+     text-decoration: none;
+     color: rgb(244, 244, 245);
+     text-transform: uppercase;
+     font-weight: 600;
+     font-size: .70em;
+}
+/* 2nd section */
+main + section{
+     height: 80px;
+     width: 100%;
+     background: rgb(248, 248, 250);
+}
+main + section img{
+     margin-left: 27%;
+}
+/* 3rd Section */
+main + section + section{
+     height: 700px;
+     background-color: rgb(248, 248, 250);
+     width: 100%;
 }
 
-footer {
-
+main + section + section > section, main + section + section > section + section {
+     width: 50%;
+     height: 600px;
+     float: left;
+     margin-top: 1%;
+}
+main + section + section > section > h2{
+     color: rgb(55, 65, 77);
+}
+main + section + section > section > span{
+     color: rgb(120, 133, 148);
+}
+main + section + section > section > h2 + p, main + section + section > section > p + p{
+     color: rgb(184, 191, 199);
+     text-align: left;
+}
+main + section + section > section + section > section {
+     width: 40%;
+     float: left;
+     border: 1px solid rgb(248, 248, 250);
+     border-radius: 4px;
+     box-shadow: 0 0 5px 0 grey;
+     text-align: center;
+     margin: 0 0 2% 2%;
+}
+main + section + section > section + section > section h4{
+     color: rgb(33, 37, 48);
+     text-transform: uppercase;
+     font-size: .70em;
+     font-weight: 600;
+}
+main + section + section > section + section > section p{
+     color: rgb(141, 152, 165);
+     font-size: .80em;
 }
 
 /******************************************
