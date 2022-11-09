@@ -73,7 +73,6 @@ nav ul{
 /* Main */
 main{
      background-image: url("mainm.png");
-     background-image: ;
      height: 563px;
      width: 100%;
      background-color: rgb(24, 31, 46);
@@ -217,7 +216,7 @@ main + section + section + section > section + section > h2{
      text-transform: capitalize;
      font-weight: 500;
 }
-main + section + section + section > section + section > p, main + section + section + section > section + section > p + p{
+main + section + section + section > section + section p{
      color: rgb(120, 132, 148);
      text-align: left;
      margin-right: 8%;
@@ -250,6 +249,54 @@ main + section + section + section + section > h2{
      margin-top: 0;
      position: relative;
      top: 15%;
+     color: rgb(63, 73, 84);
+     font-weight: lighter;
+     font-size: 1.6em;
+}
+main + section + section + section + section > p{
+     margin: 5% 25% 0 25%;
+     line-height: 140%;
+     color: rgb(120, 132, 148);
+     font-size: .99em;
+     font-weight: lighter;
+}
+/* Checkbox Section*/
+main + section + section + section + section + section{
+     height: 450px;
+     width: 100%;
+     background: rgb(248, 248, 250);
+}
+main + section + section + section + section + section > section{
+     width: 50%;
+     float: left;
+}
+main + section + section + section + section + section > section img{
+     width: 80%;
+     margin-left: 5%;
+}
+main + section + section + section + section + section > section span{
+     color: rgb(96, 111, 129);
+     text-transform: uppercase;
+     font-size: .70em;
+     font-weight: 700;
+}
+main + section + section + section + section + section > section > h2{
+     color: rgb(43, 53, 66);
+     text-transform: capitalize;
+     font-weight: 500;
+}
+main + section + section + section + section + section > section p{
+     color: rgb(120, 132, 148);
+     text-align: left;
+     margin-right: 8%;
+     margin-bottom: 3%;
+     line-height: 120%;
+}
+main + section + section + section + section + section > section label input{
+     box-shadow: 0 0 0 1px rgb(11, 15, 27);
+}
+main + section + section + section + section + section > section p + img{
+     width: 15%;
 }
 /******************************************
 /* ADDITIONAL STYLES
