@@ -273,6 +273,9 @@ main + section + section + section + section + section > section{
 main + section + section + section + section + section > section img{
      width: 80%;
      margin-left: 5%;
+     border: 1px solid rgb(222,224,233);
+     border-radius: 6px;
+     margin-left: 5%;
 }
 main + section + section + section + section + section > section span{
      color: rgb(96, 111, 129);
@@ -368,6 +371,96 @@ main + section + section + section + section + section + section + section > sec
 main + section + section + section + section + section + section + section > section + section > section > p{
      color: rgb(123, 126, 134);
      font-size: .83em;
+}
+/* Fully Integrated */
+main + section + section + section + section + section + section + section + section{
+     width: 100%;
+     height: 500px;
+     background: rgb(248, 248, 250);
+}
+main + section + section + section + section + section + section + section + section > section{
+     width: 50%;
+     float: left;
+     margin-top: 3%;
+}
+main + section + section + section + section + section + section + section + section > section img{
+ width: 80%;
+     margin-left: 5%;
+     border: 1px solid rgb(222,224,233);    border-radius: 6px;
+     margin-left: 5%;
+}
+main + section + section + section + section + section + section + section + section > section + section > span{
+     color: rgb(96, 111, 129);
+     text-transform: uppercase;
+     font-size: .70em;
+     font-weight: 700;
+}
+main + section + section + section + section + section + section + section + section > section + section > h2{
+     color: rgb(43, 53, 66);
+     text-transform: capitalize;
+     font-weight: 500;
+}    
+main + section + section + section + section + section + section + section + section > section + section > p{
+     color: rgb(120, 132, 148);
+     text-align: left;
+     margin-right: 8%;
+     margin-bottom: 3%;
+     line-height: 120%;
+}
+main + section + section + section + section + section + section + section + section > section + section > button{
+     margin-top: 5%;
+     background-color: rgb(15, 19, 32);
+     border: 1px solid rgb(15, 19, 32);
+     border-radius: 5px;
+     height: 38px;
+     width: 30%;
+     color: rgb(223, 234, 244);
+     text-transform: uppercase;
+     font-size: .70em;
+     font-weight: bolder;
+}
+/* Love by some */
+main + section + section + section + section + section + section + section + section + section{
+     width: 100%;
+     height: 300px;
+     background: rgb(255, 255, 255);
+}
+main + section + section + section + section + section + section + section + section + section > *{
+     text-align: center;
+}
+main + section + section + section + section + section + section + section + section + section > h4{
+     color: rgb(120, 132, 148);
+     text-transform: uppercase;
+     font-size: .68em;
+     font-weight: 600;
+     margin-top: 8%;
+}
+main + section + section + section + section + section + section + section + section + section > p{
+     color: rgb(96, 111, 129);
+     font-size: 1.5em;
+     font-family: Calibri;
+     line-height: 130%;
+     margin: 1% 15% 0 14%;
+     font-weight: 300;
+}
+main + section + section + section + section + section + section + section + section + section > img{
+     margin-left: 36%;
+     margin-top: 5%;
+}
+/* Place an order */
+main + section + section + section + section + section + section + section + section + section + section{
+     width: 100%;
+     height: 200px;
+     background: rgb(18, 20, 36);
+}
+main + section + section + section + section + section + section + section + section + section + section > *{
+     float: left;
+}
+main + section + section + section + section + section + section + section + section + section + section > h4{
+     float: none;
+     color: rgb(123, 126, 134);
+     text-transform: uppercase;
+     font-size: .65em;
 }
 /******************************************
 /* ADDITIONAL STYLES
