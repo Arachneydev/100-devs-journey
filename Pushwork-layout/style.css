@@ -460,7 +460,59 @@ main + section + section + section + section + section + section + section + sec
      float: none;
      color: rgb(123, 126, 134);
      text-transform: uppercase;
-     font-size: .65em;
+     font-size: .71em;
+     margin-left: 20%;
+     padding-top: 5%;
+}
+main + section + section + section + section + section + section + section + section + section + section > h2{
+     color: rgb(217, 219, 244);
+     margin: 0 0 0 20%;
+}
+main + section + section + section + section + section + section + section + section + section + section > button{
+     background-color: rgb(49, 52, 64);
+     border: 1px solid rgb(49, 52, 64);
+     border-radius: 3px;
+     height: 40px;
+     width: 15%;
+     color: rgb(223, 234, 244);
+     text-transform: uppercase;
+     font-size: .70em;
+     font-weight: bolder;
+     margin-left: 3%;
+     margin-top: -1.8%;
+}
+main + section + section + section + section + section + section + section + section + section + section > button + button{
+     color: rgb(40, 44, 55);
+     background: rgb(237, 239, 244);
+}
+/* footer */
+footer{
+     width: 100%;
+     height: 400px;
+} 
+.two, .four{
+     float: left;
+     height: 300px;
+}
+.two{
+     width: 25%;
+     height: 300px;
+}
+.four{
+     width: 12.5%;
+     margin-top: 2%;
+}
+.four a{
+     text-decoration: none;
+     color: rgb(120, 132, 148);
+     margin-left: 20%;
+     margin-top: 10%;
+}
+.four > h4{
+     margin-top: 0;
+}
+.fix{
+     margin-top: 5.3%;
 }
 /******************************************
 /* ADDITIONAL STYLES
