@@ -27,24 +27,82 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-main{
-     background-image: url(bg.jpg);
-}
 header{
-     background-color: rgb(227, 236, 243);
+     background-color: rgba(255, 255, 255, 0);
+     height: 60px;
      width: 100%;
-     height: 500px;
+     margin-bottom: -8%;
+     position: relative;
+}
+main{
+     background-image: url(by-brooke-lark-unsplash.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 700px;
+}
+main > *{
+     display: inline-block;
+}
+.float-left{
+     float: left;
+}
+.home{
+     width: 53%;
+     margin-left: 23%;
+     margin-top: 2%;
+}
+.home li{
+     list-style: none;
+     margin-right: 5%;
+}
+.home a{
+     text-decoration: none;
+     color: rgb(68, 69, 101);
+     font-family: 'Rubik', sans-serif;
+     font-weight: 600;
+     font-size: .80rem;
 }
 .logo{
      height: 50px;
      width: 10%;
+     margin-left: 5%;
 }
-nav > *{
-     float: left;
+.nhead{
+     width: 80%;
+     margin-left: 4%;
 }
-
-
-
+.wc{
+     margin: 9% 0 5% 0;
+}
+.cart, .search{
+     height: 20px;
+     width: 100%;
+}
+.icon{
+     margin: 2% 2% 0 0;
+}
+.wc{
+     font-family: 'Yeseva One', cursive;
+     color: rgb(13,13,37);
+     font-size: 3.5rem;
+     margin: 10% 72% 0 6%;
+     text-transform: capitalize;
+}
+.sform{
+     margin: 3% 0 0 6%;
+     width: 100%
+}
+.fheight{
+     height: 45px;
+}
+.sinput{
+     width: 31%;
+}
+.lbutton{
+     width: 12%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
