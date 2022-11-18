@@ -96,12 +96,44 @@ main > *{
 }
 .fheight{
      height: 45px;
+     background-color: rgb(255,136,0);
+     color: rgb(255, 237, 226);
 }
 .sinput{
      width: 31%;
+     background: rgb(255, 255, 255) url(2search.png) no-repeat 9px center;
+     border: 3px solid rgb(225, 225, 237);
+     border-radius: 6px;
 }
 .lbutton{
-     width: 12%;
+     width: 106%;
+     border: 3px solid rgb(255,136,0);
+     border-radius: 6px;
+}
+.continents{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.continents a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown{
+     position: relative;
+     float: right;
+     margin-right: 60%;
+}
+.continents a:hover {background-color: #ddd;}
+.dropdown:hover .continents {display: block;}
+.dropdown:hover .lbutton{
+     background-color: rgb(13,13,37);
+     border: 2px solid rgb(13,13,37);
 }
 /******************************************
 /* ADDITIONAL STYLES
