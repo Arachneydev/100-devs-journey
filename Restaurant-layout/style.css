@@ -20,9 +20,15 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-
-
+.rubik{
+     font-family: 'Rubik', sans-serif;
+}
+.float-left{
+     float: left;
+}
+.yeseva{
+     font-family: 'Yeseva One', cursive;
+}
 
 /******************************************
 /* LAYOUT
@@ -45,9 +51,6 @@ main{
 main > *{
      display: inline-block;
 }
-.float-left{
-     float: left;
-}
 .home{
      width: 53%;
      margin-left: 23%;
@@ -60,7 +63,6 @@ main > *{
 .home a{
      text-decoration: none;
      color: rgb(68, 69, 101);
-     font-family: 'Rubik', sans-serif;
      font-weight: 600;
      font-size: .80rem;
 }
@@ -84,7 +86,6 @@ main > *{
      margin: 2% 2% 0 0;
 }
 .wc{
-     font-family: 'Yeseva One', cursive;
      color: rgb(13,13,37);
      font-size: 3.5rem;
      margin: 10% 72% 0 6%;
@@ -92,7 +93,7 @@ main > *{
 }
 .sform{
      margin: 3% 0 0 6%;
-     width: 100%
+     width: 92%
 }
 .fheight{
      height: 45px;
@@ -135,6 +136,38 @@ main > *{
      background-color: rgb(13,13,37);
      border: 2px solid rgb(13,13,37);
 }
+.icon{
+     height: 15px;
+}
+.socials{
+     list-style: none;
+     width: 13%;
+     margin-left: 8%;
+}
+.ulsoc{
+     width: 40%;
+}
+.s-num{
+     font-weight: 500;
+     color: rgb(23, 23, 41);
+}
+.sec1{
+     height: 600px;
+     background-color: rgb(255, 255, 255);
+}
+.rpie{
+     width: 30%;
+}
+.oat{
+     height: 600px;
+     width: 70%;
+     background: url(oats.png) no-repeat right;
+     
+}
+.rpi{
+     height: 400px;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
