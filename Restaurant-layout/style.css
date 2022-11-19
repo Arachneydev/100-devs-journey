@@ -29,7 +29,17 @@
 .yeseva{
      font-family: 'Yeseva One', cursive;
 }
-
+.orange{
+     color: rgb(255, 136, 0);
+}
+.blue{
+     color: rgb(13,13,37);
+}
+.obutton{
+     background-color: rgb(255,136,0);
+     border: 3px solid rgb(255,136,0);
+     border-radius: 6px;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -75,9 +85,6 @@ main > *{
      width: 80%;
      margin-left: 4%;
 }
-.wc{
-     margin: 9% 0 5% 0;
-}
 .cart, .search{
      height: 20px;
      width: 100%;
@@ -86,7 +93,6 @@ main > *{
      margin: 2% 2% 0 0;
 }
 .wc{
-     color: rgb(13,13,37);
      font-size: 3.5rem;
      margin: 10% 72% 0 6%;
      text-transform: capitalize;
@@ -97,7 +103,6 @@ main > *{
 }
 .fheight{
      height: 45px;
-     background-color: rgb(255,136,0);
      color: rgb(255, 237, 226);
 }
 .sinput{
@@ -108,8 +113,6 @@ main > *{
 }
 .lbutton{
      width: 106%;
-     border: 3px solid rgb(255,136,0);
-     border-radius: 6px;
 }
 .continents{
   display: none;
@@ -166,6 +169,19 @@ main > *{
 }
 .rpi{
      height: 400px;
+}
+.oat p{
+     color: rgb(85, 89, 120);
+     margin: 2% 18% 4% 0;
+     text-align: justify;
+}
+.oat h3{
+     margin-top: 10%;
+}
+.oat h2{
+     font-size: 2.9rem;
+     text-transform: capitalize;
+     margin-right: 47%;
 }
 
 /******************************************
