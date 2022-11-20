@@ -188,7 +188,7 @@ main > *{
      margin-right: 47%;
 }
 .menu{
-     height: 800px;
+     height: 1000px;
      background-color: rgb(242, 246, 247);
 }
 .ms1 h4{
@@ -257,9 +257,23 @@ main > *{
 .hide{
      display: none;
 }
+.dis:hover{
+     opacity: .70;
+} 
 .dis:hover > .hide{
      display: contents;
-     background-color: rgba(38, 38, 43, 0.5);
+}
+.con1{
+     background: url(f1.jpg) no-repeat center;
+}
+.tor1{
+     background: url(f2.jpg) no-repeat center;
+}
+.san1{
+     background: url(f3.jpg) no-repeat center;
+}
+.tos1{
+     background: url(f4.jpg) no-repeat center;
 }
 /******************************************
 /* ADDITIONAL STYLES
