@@ -36,9 +36,17 @@
      color: rgb(13,13,37);
 }
 .obutton{
+     color: rgb(255, 237, 226);
      background-color: rgb(255,136,0);
      border: 3px solid rgb(255,136,0);
      border-radius: 6px;
+
+}
+.center{
+     text-align: center;
+}
+.list{
+     list-style: none;
 }
 /******************************************
 /* LAYOUT
@@ -67,7 +75,6 @@ main > *{
      margin-top: 2%;
 }
 .home li{
-     list-style: none;
      margin-right: 5%;
 }
 .home a{
@@ -103,7 +110,6 @@ main > *{
 }
 .fheight{
      height: 45px;
-     color: rgb(255, 237, 226);
 }
 .sinput{
      width: 31%;
@@ -143,7 +149,6 @@ main > *{
      height: 15px;
 }
 .socials{
-     list-style: none;
      width: 13%;
      margin-left: 8%;
 }
@@ -165,7 +170,6 @@ main > *{
      height: 600px;
      width: 70%;
      background: url(oats.png) no-repeat right;
-     
 }
 .rpi{
      height: 400px;
@@ -183,7 +187,80 @@ main > *{
      text-transform: capitalize;
      margin-right: 47%;
 }
-
+.menu{
+     height: 800px;
+     background-color: rgb(242, 246, 247);
+}
+.ms1 h4{
+     display: inline-block;
+     margin-top: 5%;
+     margin-left: 45%;
+}
+.ms1 h2{
+     margin-top: -1%;
+     font-size: 3.1rem;
+}
+.ms1 ul a{
+     text-decoration: none;
+     color: rgb(151, 151, 162);
+     font-size: 1.2rem;
+}
+.ms1 li{
+     margin-left: 0;
+     border-bottom: 1px solid rgb(151, 151, 162);
+     padding: 0 15px;
+}
+.ms1 ul{
+     width: 50%;
+     height: 40px;
+     margin-left: 25%;
+}
+.olink a:active{
+     color: rgb(255, 136, 0);
+     border-bottom: 1px solid rgb(255,136,0);
+}
+.orderdish section{
+     width: 20%;
+     height: 265px;
+     margin: 3% 0 4% 4%;
+}
+.con{
+     background: url(d1.jpg) no-repeat center;
+}
+.tor{
+     background: url(d2.jpg) no-repeat center;
+}
+.san{
+     background: url(d3.png) no-repeat center;
+}
+.tos{
+     background: url(d4.jpg) no-repeat center;
+}
+.dollar{
+     color: white;
+     font-size: 2.5rem;
+     margin-left: 22%;
+     margin-top: 17%;
+     display: inline-block;
+}
+.fname{
+     color: white;
+     font-size: 1.9rem;
+     margin-left: 22%;
+     margin-top: 5%;
+     display: inline-block;
+}
+.d1{
+     margin-left: 24%;
+     height: 40px;
+}
+.hide{
+     display: none;
+}
+.dis:hover > .hide{
+     display: contents;
+     background-color: rgba(38, 38, 43, 0.5);
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
