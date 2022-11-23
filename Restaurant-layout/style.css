@@ -48,6 +48,7 @@
 .list{
      list-style: none;
 }
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -112,13 +113,14 @@ main > *{
      height: 45px;
 }
 .sinput{
-     width: 31%;
+     width: 29%;
      background: rgb(255, 255, 255) url(2search.png) no-repeat 9px center;
      border: 3px solid rgb(225, 225, 237);
      border-radius: 6px;
 }
 .lbutton{
      width: 106%;
+     margin-left: -23%;
 }
 .continents{
   display: none;
@@ -274,6 +276,24 @@ main > *{
 }
 .tos1{
      background: url(f4.jpg) no-repeat center;
+}
+.book{
+     height: 700px;
+     background: url(coffee.png) no-repeat right;
+}
+.book h3{
+     display: inline-block;
+     margin-top: 5%;
+     margin-left: 45%;
+}
+.book h2{
+     display: inline-block;
+     margin-top: -1%;
+     margin-left: 32%;
+     font-size: 2.9rem;
+}
+.book h2+ img{
+     margin-left: 31%;
 }
 /******************************************
 /* ADDITIONAL STYLES
