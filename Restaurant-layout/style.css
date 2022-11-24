@@ -278,7 +278,7 @@ main > *{
      background: url(f4.jpg) no-repeat center;
 }
 .book{
-     height: 700px;
+     height: 1000px;
      background: url(coffee.png) no-repeat right;
 }
 .book h3{
@@ -294,6 +294,64 @@ main > *{
 }
 .book h2+ img{
      margin-left: 31%;
+}
+.vid{
+     height: 400px;
+     margin-left: 12%;
+     margin-top: 2%;
+}
+.mon{
+     width: 27%;
+     margin: 0 1% 2% 6%;
+     font-size: 1.6rem;
+}
+.mon + span{
+     margin-left: 6%;
+     font-size: 2.1rem;
+}
+.fri{
+     float: right;
+     width: 20%;
+     margin: -4% 16% 0 0;
+     font-size: 1.6rem;
+}
+.fri + span{
+     margin-left: 23%;
+     font-size: 2.1rem;
+}
+.customer{
+     height: 500px;
+     background-color: rgb(255, 255, 255);
+}
+.customer p{
+     color: rgb(93, 94, 121);
+}
+.john{
+     display: inline-block;
+     margin: 3% 0 0 43%;
+}
+.john ~ span{
+     display: inline-block;
+     margin-left: 45%;
+}
+.john + h3{
+     margin-bottom: 0;
+     font-size: 1.8rem;
+}
+.star{
+     margin: 1% 0 0 45%;
+}
+.art{
+     color: rgb(151, 151, 162);
+     font-size: 1.3rem;
+}
+.star + p{
+     font-size: 1.4rem;
+     margin: 0 2% 0 2%;
+     text-align: center;
+}
+.customer h2{
+     font-size: 2.2rem;
 }
 /******************************************
 /* ADDITIONAL STYLES
