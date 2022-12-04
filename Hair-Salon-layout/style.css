@@ -20,23 +20,42 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
-
+.fltlft{
+     float: left;
 }
-
-
+.anc{
+     text-decoration: none;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+.header{
+     height: 210px;
+     background: rgb(255, 255, 255);
 }
-
-footer {
-
+nav{
+     width: 60%;
+     margin: 4% 0 0 19%;
 }
-
+.logo{
+     height: 208px;
+}
+.lgo{
+     height: 35px;
+     margin-left: 3%;
+}
+.hfont{
+     font-size: 1.9rem;   
+     color: black;
+}
+.list{
+     list-style: none;  
+     margin-left: 6%;
+}
+main{
+     background: url(devn-5unsplash.jpg) top no-repeat;
+     height: 500px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
