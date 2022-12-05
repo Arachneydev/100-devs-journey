@@ -26,19 +26,23 @@
 .anc{
      text-decoration: none;
 }
+.upc{
+     text-transform: uppercase;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
-.header{
-     height: 210px;
+header{
+     height: 80px;
      background: rgb(255, 255, 255);
 }
 nav{
      width: 60%;
-     margin: 4% 0 0 19%;
+     margin: 1.7% 0 0 15%;
 }
 .logo{
-     height: 208px;
+     height: 124px;
+     margin-top: -1%;
 }
 .lgo{
      height: 35px;
@@ -46,15 +50,67 @@ nav{
 }
 .hfont{
      font-size: 1.9rem;   
-     color: black;
+     color: rgb(130, 70, 128)
 }
 .list{
      list-style: none;  
-     margin-left: 6%;
+     margin-left: 5%;
 }
 main{
-     background: url(devn-5unsplash.jpg) top no-repeat;
-     height: 500px;
+     background: url(rsz_1unsplash.jpg) top no-repeat;
+     height: 900px;
+}
+.htag{
+     color: rgb(41, 39, 38);
+     font-size: 4rem;
+     display: inline-block;
+     margin: 20% 78% 0 2%;
+}
+.sbtn{
+     margin: 6% 0 0 2%;
+     background: rgb(233, 229, 228);
+     border: 1px solid rgb(233, 229, 228);
+     border-radius: 5px;
+     height: 40px;
+     width: 11%;
+     color: rgb(222, 177, 58);
+     font-weight: 600;
+}
+.spow{
+     color: rgb(220, 117, 77);
+     text-transform: capitalize;
+}
+/* Salon Info */
+.dts{
+     background: rgb(254, 254, 254);
+     height: 290px;
+     width: 100%;
+}
+.inf{
+     width: 33.333%;
+}
+.inf > *{
+     text-align: center;
+}
+.lgo1{
+     height: 55px;
+     margin: 14% 0 0 43%;
+}
+.sp2{
+     margin-left: 30%;
+}
+/* discount */
+.dsc{
+     background: rgb(200, 225, 222);
+     height: 450px;
+     width: 100%;
+}
+.inf1{
+     width: 33.333%;
+     height: 370px;
+}
+.inf1 > img{
+     height: 215px;
 }
 /******************************************
 /* ADDITIONAL STYLES
