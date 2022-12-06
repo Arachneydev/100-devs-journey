@@ -29,6 +29,9 @@
 .upc{
      text-transform: uppercase;
 }
+.cntr{    
+     text-align: center;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -104,13 +107,60 @@ main{
      background: rgb(200, 225, 222);
      height: 450px;
      width: 100%;
+     box-sizing: border-box;
 }
 .inf1{
-     width: 33.333%;
-     height: 370px;
+     width: 31%;
+     height: 450px;
+     border-right: 2px solid rgb(222, 177, 58);
+     margin-right: 2.3%;
 }
-.inf1 > img{
-     height: 215px;
+.lasb{
+     border-right: none;
+}
+.magl{
+     height: 270px;
+     margin: 9% 0 0 18%;
+}
+.shp{
+     height: 235px;
+     margin-top: 17%;
+}
+.blw{
+     height: 220px;
+     margin: 21% 0 0 6%;
+}
+.dsch3{
+     text-transform: capitalize;
+}
+.here{
+     color: rgb(220, 117, 77);
+}
+/* Review */
+.clnt{
+     height: 400px;
+     background: rgb(254, 220, 210);
+}
+.wht{
+     color: rgb(220, 117, 77);
+     font-size: 4.5rem;
+     left: 5%;
+     text-transform: capitalize;
+     margin: 15% 23% 0 10%;
+}
+.lov{
+     color: rgb(41, 39, 38);
+     font-weight: 600;
+     font-size: 3rem;
+     margin-top: 11%;
+     display: inline-block;
+}
+.star{
+     height: 200px;
+     margin-left: 22%;
+}
+.cl1, .cl2{
+     width: 50%;
 }
 /******************************************
 /* ADDITIONAL STYLES
