@@ -29,8 +29,8 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-/* header {
-  height: 55px;
+header{
+  height: 35px;
   background: black;
   color: white;
 }
@@ -39,16 +39,37 @@ nav *{
   width: 10%;
   color: white;
   display: block;
+  text-decoration: none;
+  list-style: none;
+  height: 35px;
 }
 nav ul{
-  width: 50%;
+  width: 60%;
+  margin: 0 10px 10px 10px;
+}
+nav ul li{
+  margin: 0 3px 0 3px;
+  padding-top: 10px;
+}
+nav ul li, nav img, nav > a{
+  border-right: 1px solid white;
 }
 nav form input{
   width: 100%;
+  height: 30px;
+}
+nav img{
+  height: 35px;
+} 
+nav > a{
+  padding: 10px 0 0 5px;
 }
 main + section > section{
   width: 33.3333%;
   float: left;
+}
+main + section > section img{
+  width: 90%;
 }
 main > section{
   width: 50%;
@@ -59,26 +80,68 @@ main section + section section{
   width: 50%;
   height: 250px;
   float: left;
-  border: 1px solid black;
-} */
-nav, ul, main{
-  display: flex;
-  justify-content: space-around;
 }
-ul{
-  flex-basis: 60%;
+main span{
+  font-size: 15px;
 }
-main section{
-  flex-basis: 48%;
+main section + section section img {
+  width: 95%;
 }
-main section + section{
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 50%;  
+main section + section section h3{
+  font-size: 18px;
+  margin: 0;
 }
-.container{
-  display: flex;
+main > h2 + section h1{
+  font-size:  30px;
 }
+main > h2 + section p{
+  font-size: 20px;
+}
+main > section + section > h2{
+  margin: -40px 0 40px 345px;
+  
+}
+main > h2 + section img{
+  width: 90%;
+}
+main> h2 + section{
+  margin-top: 28px;
+} 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+/* nav *{
+  background: black;
+  float: left;
+  list-style: none;
+  box-sizing: border-box;
+  display: block;
+}
+nav > ul {
+  width: 90%;
+  margin: 0 auto;
+  height: 40px;
+}
+nav ul > li {
+  padding: 10px 15px 0 15px;
+  border-left: 1px solid white;
+  height: 40px;
+}
+nav ul > li > a{
+  color: white;
+  text-decoration: none;
+}
+nav img{
+  height: 40px;
+  width: 10%;
+}
+.sign{
+  padding: 10px 40px 0 40px;
+}
+main > section{
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+
+ */
